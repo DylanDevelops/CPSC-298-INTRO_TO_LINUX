@@ -9,7 +9,7 @@ user_char="y"
 while [ "$user_char" == "y" ]
 do
 	echo $curr_power
-	curr_power=$((currpower*2))
+	curr_power=$((curr_power*2))
 	read -r user_char
 done
 
